@@ -1,5 +1,7 @@
-document.querySelector("main").remove();
-let newHeader = document.createElement('h1');
-document.body.appendChild(newHeader);
-newHeader.id = "victory"
-newHeader.innerText = "Eric is the champion!"
+document.querySelector("main#main").remove();
+
+const newHeader = document.createElement("h1");
+newHeader.id = "victory";
+
+newHeader.innerText = "YOUR-NAME is the champion!";
+newHeader.className = "victory";
